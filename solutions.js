@@ -20,4 +20,46 @@
  * and
  * concat
  */
+function isTrue(a) {
+    return a === true;
+}
 
+function isFalse(a) {
+    return a === false;
+}
+
+function not(a) {
+    return Boolean(!a);
+}
+
+function addOne(a) {
+        return 1 + Number(a);
+}
+
+function isEven(a) {
+    if (a === false) {
+        return false;
+    } else {
+        return a % 2 == 0;
+    }
+}
+
+function isIdentical(a, b) {
+    return typeof(a) == typeof(b);
+}
+
+function isEqual(a, b) {
+    return a == b;
+}
+
+function or(a, b) {
+    return a || b;
+}
+
+function concat(a, b) {
+    return a.toString() + b;
+}
+
+function and(a, b) {
+    return a && b;
+}
