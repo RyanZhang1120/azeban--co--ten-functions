@@ -37,11 +37,7 @@ function addOne(a) {
 }
 
 function isEven(a) {
-    if (a === false) {
-        return false;
-    } else {
-        return a % 2 == 0;
-    }
+        return parseFloat(a) % 2 == 0;
 }
 
 function isIdentical(a, b) {
